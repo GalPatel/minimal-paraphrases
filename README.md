@@ -1,8 +1,21 @@
 # Minimal Paraphrases Pairs
 Minimal Paraphrase Pairs are meaning-preserving paraphrases with a controlled and minimal change.
+This repository provides the generation code and a sample dataset derrived from WMT19 dev set.
 
+## Paraphrases Properties
+The dataset includes 2 subsets: adverbial clause to noun phrase and active voice to passive voice.
 
+|                               | Source                                      | Paraphrased                                 |
+|-------------------------------|---------------------------------------------|---------------------------------------------|
+| Active Voice/ Passive Voice   | She **took** the book.                      | The book **was taken** by her.              |
+| Adverbial Clause/ Noun Phrase | The party died down before **she arrived**. | The party died down before **her arrival**. |
 
+Sentence pairs attributes:
+1. Similar Meaning, for invariant semantics.
+2. Minimal Change, to facilitate experimental setup.
+3. Controlled Change, where paraphrasing difference is consistent and well-defined. As opposed to 
+lexical paraphrases that tend to be idiosyncratic, we require the same distinction to be applied to all instances.
+4. Reference Translation, (optional)
 
 ## Citation
 
