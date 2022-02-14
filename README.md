@@ -31,7 +31,7 @@ anomalous. Therefore, we manually filtered the data provided here.
 
 ## Usage for generation of paraphrases
 Our algorithm for generating paraphrases will be available here. It can be used to extract 
-suitable source sentences and paraphrase them from any given set of English sentences.
+suitable source sentences (from any given set of English sentences) and paraphrase them.
 
 ## Citation
 
