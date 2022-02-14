@@ -25,7 +25,7 @@ The adverbial clauses include: temporal, purpose, cause/reason.
 ## Sample Dataset
 We applied our paraphrases engine on the English-German [WMT19](https://www.statmt.org/wmt19/translation-task.html) dev set. It can be found in the [data](data) directory.
 
-ome paraphrases, generated automatically by our algorithm, are syntactically well-formed, but also 
+Some paraphrases, generated automatically by our algorithm, are syntactically well-formed, but also 
 anomalous. Therefore, we manually filtered the data provided here.
 
 ## Usage for generation of paraphrases
