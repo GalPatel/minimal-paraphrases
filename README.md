@@ -51,7 +51,7 @@ clause2nphrase: She went to the local caffe because of her love for their pie.
 
 #### Notes:
 1. For easy code usage, see `paraphrase` in `demo.py`
-2. The script automatically use gpu if detected
+2. The script automatically uses gpu if detected
 
 
 
