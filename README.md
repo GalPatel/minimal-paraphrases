@@ -2,7 +2,7 @@
 ### [Paper](https://arxiv.org/abs/2110.03067)
 
 Minimal Paraphrase Pairs are meaning-preserving paraphrases with a controlled and minimal change.
-This repository provides the generation code and a sample dataset derrived from WMT19 dev set.
+This repository provides the script to generate new paraphrases and a sample dataset derrived from WMT19 English-German dev set.
 
 
 ## Paraphrases Properties
@@ -29,8 +29,31 @@ Some paraphrases, generated automatically by our algorithm, are syntactically we
 anomalous. Therefore, we manually filtered the data provided here.
 
 ## Usage for generation of paraphrases
-Our algorithm for generating paraphrases will be available here. It can be used to extract 
-suitable source sentences (from any given set of English sentences) and paraphrase them.
+You can generate your own paraphrases with our script (install `requirements.txt`)
+
+You can paraphrase single sentences or entire paragraphs.
+
+A quick demo:
+```
+python demo.py "She took the book before she left the house. She went to the local caffe because she loves their pie."
+```
+Output:
+```
+input: She took the book before she left the house. She went to the local caffe because she loves their pie.
+###
+source: She took the book before she left the house.
+clause2nphrase: She took the book before her departure from the house.
+active2passive: The book was taken by her before she left the house.
+###
+source: She went to the local caffe because she loves their pie.
+clause2nphrase: She went to the local caffe because of her love for their pie.
+```
+
+#### Notes:
+1. For easy code usage, see `paraphrase` in `demo.py`
+2. The script automatically use gpu if detected
+
+
 
 ## Citation
 
