@@ -31,7 +31,8 @@ anomalous. Therefore, we manually filtered the data provided here.
 ## Usage for generation of paraphrases
 You can generate your own paraphrases with our script (install `requirements.txt`)
 
-You can paraphrase single sentences or entire paragraphs.
+* You can paraphrase single sentences or entire paragraphs.
+* Each sentence would be paraphrased into both passive voice and noun-phrase (if applicable)
 
 A quick demo:
 ```
